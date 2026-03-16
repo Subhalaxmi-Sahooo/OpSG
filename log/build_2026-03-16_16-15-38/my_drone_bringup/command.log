@@ -1,0 +1,2 @@
+Invoking command in '/home/subhalaxmi/nidar_ws/build/my_drone_bringup': /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/my_drone_bringup -- -j4 -l4
+Invoked command in '/home/subhalaxmi/nidar_ws/build/my_drone_bringup' returned '2': /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/my_drone_bringup -- -j4 -l4

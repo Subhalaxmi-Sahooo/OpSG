@@ -1,0 +1,27 @@
+[1.369s] Invoking command in '/home/subhalaxmi/nidar_ws/src/drone_pkg': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/subhalaxmi/nidar_ws/build/drone_pkg/build install --record /home/subhalaxmi/nidar_ws/build/drone_pkg/install.log --single-version-externally-managed install_data
+[2.010s] running egg_info
+[2.012s] writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO
+[2.013s] writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt
+[2.013s] writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt
+[2.013s] writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt
+[2.013s] writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt
+[2.019s] reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[2.021s] writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[2.021s] running build
+[2.021s] running build_py
+[2.022s] copying drone_pkg/drone_altitude.py -> /home/subhalaxmi/nidar_ws/build/drone_pkg/build/lib/drone_pkg
+[2.022s] copying drone_pkg/__init__.py -> /home/subhalaxmi/nidar_ws/build/drone_pkg/build/lib/drone_pkg
+[2.022s] running install
+[2.023s] running install_lib
+[2.024s] copying /home/subhalaxmi/nidar_ws/build/drone_pkg/build/lib/drone_pkg/drone_altitude.py -> /home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[2.025s] copying /home/subhalaxmi/nidar_ws/build/drone_pkg/build/lib/drone_pkg/__init__.py -> /home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[2.026s] byte-compiling /home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/drone_altitude.py to drone_altitude.cpython-310.pyc
+[2.026s] byte-compiling /home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/__init__.py to __init__.cpython-310.pyc
+[2.027s] running install_data
+[2.027s] running install_egg_info
+[2.031s] removing '/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.032s] Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info
+[2.033s] running install_scripts
+[2.077s] Installing simple_node script to /home/subhalaxmi/nidar_ws/install/drone_pkg/lib/drone_pkg
+[2.077s] writing list of installed files to '/home/subhalaxmi/nidar_ws/build/drone_pkg/install.log'
+[2.118s] Invoked command in '/home/subhalaxmi/nidar_ws/src/drone_pkg' returned '0': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/subhalaxmi/nidar_ws/build/drone_pkg/build install --record /home/subhalaxmi/nidar_ws/build/drone_pkg/install.log --single-version-externally-managed install_data

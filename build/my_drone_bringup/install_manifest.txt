@@ -1,0 +1,16 @@
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup//launch/drone.launch.py
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index/resource_index/package_run_dependencies/my_drone_bringup
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index/resource_index/parent_prefix_path/my_drone_bringup
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/environment/ament_prefix_path.sh
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/environment/ament_prefix_path.dsv
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/environment/path.sh
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/environment/path.dsv
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/local_setup.bash
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/local_setup.sh
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/local_setup.zsh
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/local_setup.dsv
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.dsv
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index/resource_index/packages/my_drone_bringup
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/cmake/my_drone_bringupConfig.cmake
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/cmake/my_drone_bringupConfig-version.cmake
+/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.xml

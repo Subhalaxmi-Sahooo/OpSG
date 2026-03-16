@@ -1,0 +1,33 @@
+[1.981s] Invoking command in '/home/subhalaxmi/nidar_ws/src/my_drone_bringup': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/my_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_drone_bringup build --build-base /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build install --record /home/subhalaxmi/nidar_ws/build/my_drone_bringup/install.log --single-version-externally-managed install_data
+[2.535s] running egg_info
+[2.536s] creating ../../build/my_drone_bringup/my_drone_bringup.egg-info
+[2.536s] writing ../../build/my_drone_bringup/my_drone_bringup.egg-info/PKG-INFO
+[2.536s] writing dependency_links to ../../build/my_drone_bringup/my_drone_bringup.egg-info/dependency_links.txt
+[2.537s] writing entry points to ../../build/my_drone_bringup/my_drone_bringup.egg-info/entry_points.txt
+[2.537s] writing requirements to ../../build/my_drone_bringup/my_drone_bringup.egg-info/requires.txt
+[2.538s] writing top-level names to ../../build/my_drone_bringup/my_drone_bringup.egg-info/top_level.txt
+[2.538s] writing manifest file '../../build/my_drone_bringup/my_drone_bringup.egg-info/SOURCES.txt'
+[2.541s] reading manifest file '../../build/my_drone_bringup/my_drone_bringup.egg-info/SOURCES.txt'
+[2.543s] writing manifest file '../../build/my_drone_bringup/my_drone_bringup.egg-info/SOURCES.txt'
+[2.543s] running build
+[2.543s] running build_py
+[2.544s] creating /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build
+[2.544s] creating /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build/lib
+[2.544s] creating /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build/lib/my_drone_bringup
+[2.544s] copying my_drone_bringup/__init__.py -> /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build/lib/my_drone_bringup
+[2.544s] running install
+[2.545s] running install_lib
+[2.546s] creating /home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages/my_drone_bringup
+[2.546s] copying /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build/lib/my_drone_bringup/__init__.py -> /home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages/my_drone_bringup
+[2.547s] byte-compiling /home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages/my_drone_bringup/__init__.py to __init__.cpython-310.pyc
+[2.548s] running install_data
+[2.548s] creating /home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index
+[2.548s] creating /home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index/resource_index
+[2.549s] creating /home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index/resource_index/packages
+[2.549s] copying resource/my_drone_bringup -> /home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/ament_index/resource_index/packages
+[2.549s] copying package.xml -> /home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup
+[2.549s] running install_egg_info
+[2.552s] Copying ../../build/my_drone_bringup/my_drone_bringup.egg-info to /home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages/my_drone_bringup-0.0.0-py3.10.egg-info
+[2.554s] running install_scripts
+[2.592s] writing list of installed files to '/home/subhalaxmi/nidar_ws/build/my_drone_bringup/install.log'
+[2.634s] Invoked command in '/home/subhalaxmi/nidar_ws/src/my_drone_bringup' returned '0': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/my_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_drone_bringup build --build-base /home/subhalaxmi/nidar_ws/build/my_drone_bringup/build install --record /home/subhalaxmi/nidar_ws/build/my_drone_bringup/install.log --single-version-externally-managed install_data
