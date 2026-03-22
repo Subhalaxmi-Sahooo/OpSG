@@ -1,4 +1,0 @@
-[console_scripts]
-square_path_node = nidar_flight.square_path:main
-takeoff_node = nidar_flight.takeoff_node:main
-

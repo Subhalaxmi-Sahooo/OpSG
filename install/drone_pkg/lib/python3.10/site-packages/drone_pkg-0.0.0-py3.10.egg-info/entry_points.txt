@@ -1,7 +1,0 @@
-[console_scripts]
-altitude_publisher = drone_pkg.drone_altitude:main
-altitude_subscriber = drone_pkg.target_altitude:main
-arm_client = drone_pkg.arm_client:main
-arm_server = drone_pkg.arm_server:main
-simple_node = drone_pkg.__init__:main
-
