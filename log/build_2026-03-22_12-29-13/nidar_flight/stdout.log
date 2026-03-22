@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/nidar_flight/nidar_flight.egg-info/PKG-INFO
+writing dependency_links to ../../build/nidar_flight/nidar_flight.egg-info/dependency_links.txt
+writing entry points to ../../build/nidar_flight/nidar_flight.egg-info/entry_points.txt
+writing requirements to ../../build/nidar_flight/nidar_flight.egg-info/requires.txt
+writing top-level names to ../../build/nidar_flight/nidar_flight.egg-info/top_level.txt
+reading manifest file '../../build/nidar_flight/nidar_flight.egg-info/SOURCES.txt'
+writing manifest file '../../build/nidar_flight/nidar_flight.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nidar_flight/square_path.py -> /home/subhalaxmi/nidar_ws/build/nidar_flight/build/lib/nidar_flight
+copying nidar_flight/takeoff_node.py -> /home/subhalaxmi/nidar_ws/build/nidar_flight/build/lib/nidar_flight
+running install
+running install_lib
+copying /home/subhalaxmi/nidar_ws/build/nidar_flight/build/lib/nidar_flight/square_path.py -> /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight
+copying /home/subhalaxmi/nidar_ws/build/nidar_flight/build/lib/nidar_flight/takeoff_node.py -> /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight
+byte-compiling /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight/square_path.py to square_path.cpython-310.pyc
+byte-compiling /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight/takeoff_node.py to takeoff_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nidar_flight/nidar_flight.egg-info to /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight-0.0.0-py3.10.egg-info
+running install_scripts
+Installing square_path_node script to /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/nidar_flight
+Installing takeoff_node script to /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/nidar_flight
+writing list of installed files to '/home/subhalaxmi/nidar_ws/build/nidar_flight/install.log'

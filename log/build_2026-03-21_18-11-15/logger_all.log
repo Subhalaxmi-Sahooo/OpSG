@@ -1,0 +1,325 @@
+[0.226s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.226s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73c578789300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73c578702a40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73c578702a40>>, mixin_verb=('build',))
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.596s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/subhalaxmi/nidar_ws'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_pkg) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_pkg' with type 'ros.ament_python' and name 'drone_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_drone_bringup) by extension 'ros'
+[0.670s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_drone_bringup' with type 'ros.ament_cmake' and name 'my_drone_bringup'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/nidar_flight) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nidar_flight' with type 'ros.ament_python' and name 'nidar_flight'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/subhalaxmi/nidar_ws/install
+[0.721s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/subhalaxmi/rover_ws/install
+[0.721s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/subhalaxmi/autonav_ws/install
+[0.722s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/subhalaxmi/my_robot_ws/install
+[0.723s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/subhalaxmi/ros2_ws/install
+[0.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/humble
+[0.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'drone_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'drone_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/subhalaxmi/nidar_ws/build/drone_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/subhalaxmi/nidar_ws/install/drone_pkg', 'merge_install': False, 'path': '/home/subhalaxmi/nidar_ws/src/drone_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.827s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/subhalaxmi/nidar_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/subhalaxmi/nidar_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/subhalaxmi/nidar_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'my_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.828s] DEBUG:colcon.colcon_core.verb:Building package 'my_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/subhalaxmi/nidar_ws/build/my_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/subhalaxmi/nidar_ws/install/my_drone_bringup', 'merge_install': False, 'path': '/home/subhalaxmi/nidar_ws/src/my_drone_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'cmake_target' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'cmake_clean_cache' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'cmake_clean_first' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'cmake_force_configure' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'ament_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'catkin_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'nidar_flight' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.829s] DEBUG:colcon.colcon_core.verb:Building package 'nidar_flight' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/subhalaxmi/nidar_ws/build/nidar_flight', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/subhalaxmi/nidar_ws/install/nidar_flight', 'merge_install': False, 'path': '/home/subhalaxmi/nidar_ws/src/nidar_flight', 'symlink_install': False, 'test_result_base': None}
+[0.829s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.831s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.831s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/subhalaxmi/nidar_ws/src/drone_pkg' with build type 'ament_python'
+[0.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_pkg', 'ament_prefix_path')
+[0.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/hook/ament_prefix_path.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/hook/ament_prefix_path.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/hook/ament_prefix_path.sh'
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/subhalaxmi/nidar_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/subhalaxmi/nidar_ws/src/px4_msgs'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/subhalaxmi/nidar_ws/src/drone_pkg'
+[1.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhalaxmi/nidar_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/px4_msgs -- -j4 -l4
+[2.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhalaxmi/nidar_ws/src/drone_pkg': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/subhalaxmi/nidar_ws/build/drone_pkg/build install --record /home/subhalaxmi/nidar_ws/build/drone_pkg/install.log --single-version-externally-managed install_data
+[2.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhalaxmi/nidar_ws/src/drone_pkg' returned '0': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/subhalaxmi/nidar_ws/build/drone_pkg/build install --record /home/subhalaxmi/nidar_ws/build/drone_pkg/install.log --single-version-externally-managed install_data
+[2.986s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg' for CMake module files
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg' for CMake config files
+[2.989s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg/lib'
+[2.990s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg/bin'
+[2.990s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/pkgconfig/drone_pkg.pc'
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages'
+[2.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_pkg', 'pythonpath')
+[2.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/hook/pythonpath.ps1'
+[2.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/hook/pythonpath.dsv'
+[2.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/hook/pythonpath.sh'
+[2.997s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/drone_pkg/bin'
+[2.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_pkg)
+[2.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/package.ps1'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/package.dsv'
+[3.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/package.sh'
+[3.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/package.bash'
+[3.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/drone_pkg/share/drone_pkg/package.zsh'
+[3.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhalaxmi/nidar_ws/install/drone_pkg/share/colcon-core/packages/drone_pkg)
+[3.013s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/subhalaxmi/nidar_ws/src/my_drone_bringup' with build type 'ament_cmake'
+[3.013s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/subhalaxmi/nidar_ws/src/my_drone_bringup'
+[3.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhalaxmi/nidar_ws/build/my_drone_bringup': AMENT_PREFIX_PATH=/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/px4_msgs:/home/subhalaxmi/nidar_ws/install/my_drone_bringup:/home/subhalaxmi/rover_ws/install/rover_ctrl:/home/subhalaxmi/autonav_ws/install/my_rover_description:/home/subhalaxmi/autonav_ws/install/my_rover_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_description:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages:/home/subhalaxmi/my_robot_ws/install/line_follower/lib/python3.10/site-packages:/home/subhalaxmi/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/my_drone_bringup -- -j4 -l4
+[3.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhalaxmi/nidar_ws/build/my_drone_bringup' returned '0': AMENT_PREFIX_PATH=/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/px4_msgs:/home/subhalaxmi/nidar_ws/install/my_drone_bringup:/home/subhalaxmi/rover_ws/install/rover_ctrl:/home/subhalaxmi/autonav_ws/install/my_rover_description:/home/subhalaxmi/autonav_ws/install/my_rover_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_description:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages:/home/subhalaxmi/my_robot_ws/install/line_follower/lib/python3.10/site-packages:/home/subhalaxmi/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/my_drone_bringup -- -j4 -l4
+[3.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhalaxmi/nidar_ws/build/my_drone_bringup': AMENT_PREFIX_PATH=/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/px4_msgs:/home/subhalaxmi/nidar_ws/install/my_drone_bringup:/home/subhalaxmi/rover_ws/install/rover_ctrl:/home/subhalaxmi/autonav_ws/install/my_rover_description:/home/subhalaxmi/autonav_ws/install/my_rover_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_description:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages:/home/subhalaxmi/my_robot_ws/install/line_follower/lib/python3.10/site-packages:/home/subhalaxmi/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/subhalaxmi/nidar_ws/build/my_drone_bringup
+[3.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_drone_bringup)
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup' for CMake module files
+[3.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhalaxmi/nidar_ws/build/my_drone_bringup' returned '0': AMENT_PREFIX_PATH=/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/px4_msgs:/home/subhalaxmi/nidar_ws/install/my_drone_bringup:/home/subhalaxmi/rover_ws/install/rover_ctrl:/home/subhalaxmi/autonav_ws/install/my_rover_description:/home/subhalaxmi/autonav_ws/install/my_rover_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_bringup:/home/subhalaxmi/my_robot_ws/install/my_robot_description:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/subhalaxmi/nidar_ws/install/drone_pkg/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:/home/subhalaxmi/nidar_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages:/home/subhalaxmi/my_robot_ws/install/line_follower/lib/python3.10/site-packages:/home/subhalaxmi/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/subhalaxmi/nidar_ws/build/my_drone_bringup
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup' for CMake config files
+[3.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_drone_bringup', 'cmake_prefix_path')
+[3.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/cmake_prefix_path.ps1'
+[3.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/cmake_prefix_path.dsv'
+[3.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/cmake_prefix_path.sh'
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib'
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/bin'
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/pkgconfig/my_drone_bringup.pc'
+[3.191s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages'
+[3.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_drone_bringup', 'pythonpath')
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/pythonpath.ps1'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/pythonpath.dsv'
+[3.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/pythonpath.sh'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/bin'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.ps1'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.dsv'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.sh'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.bash'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.zsh'
+[3.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/colcon-core/packages/my_drone_bringup)
+[3.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_drone_bringup)
+[3.201s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup' for CMake module files
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup' for CMake config files
+[3.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_drone_bringup', 'cmake_prefix_path')
+[3.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/cmake_prefix_path.ps1'
+[3.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/cmake_prefix_path.dsv'
+[3.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/cmake_prefix_path.sh'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/bin'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/pkgconfig/my_drone_bringup.pc'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/lib/python3.10/site-packages'
+[3.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_drone_bringup', 'pythonpath')
+[3.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/pythonpath.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/pythonpath.dsv'
+[3.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/hook/pythonpath.sh'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/bin'
+[3.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.ps1'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.dsv'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.sh'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.bash'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/my_drone_bringup/package.zsh'
+[3.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhalaxmi/nidar_ws/install/my_drone_bringup/share/colcon-core/packages/my_drone_bringup)
+[6.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhalaxmi/nidar_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/px4_msgs -- -j4 -l4
+[6.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhalaxmi/nidar_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/subhalaxmi/nidar_ws/build/px4_msgs
+[7.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[7.275s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs' for CMake module files
+[7.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhalaxmi/nidar_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/subhalaxmi/nidar_ws/build/px4_msgs
+[7.277s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs' for CMake config files
+[7.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[7.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[7.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[7.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[7.291s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/lib'
+[7.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[7.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[7.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[7.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[7.295s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/bin'
+[7.295s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[7.295s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/lib/python3.10/site-packages'
+[7.296s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/bin'
+[7.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[7.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[7.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[7.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[7.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[7.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhalaxmi/nidar_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[7.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[7.303s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs' for CMake module files
+[7.304s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs' for CMake config files
+[7.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[7.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[7.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[7.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[7.318s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/lib'
+[7.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[7.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[7.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[7.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/bin'
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[7.322s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/lib/python3.10/site-packages'
+[7.323s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/px4_msgs/bin'
+[7.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[7.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[7.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[7.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[7.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhalaxmi/nidar_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[7.329s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/subhalaxmi/nidar_ws/src/nidar_flight' with build type 'ament_python'
+[7.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('nidar_flight', 'ament_prefix_path')
+[7.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/hook/ament_prefix_path.ps1'
+[7.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/hook/ament_prefix_path.dsv'
+[7.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/hook/ament_prefix_path.sh'
+[7.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.917s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/subhalaxmi/nidar_ws/src/nidar_flight'
+[7.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/subhalaxmi/nidar_ws/src/nidar_flight': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/nidar_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nidar_flight build --build-base /home/subhalaxmi/nidar_ws/build/nidar_flight/build install --record /home/subhalaxmi/nidar_ws/build/nidar_flight/install.log --single-version-externally-managed install_data
+[9.265s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight' for CMake module files
+[9.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/subhalaxmi/nidar_ws/src/nidar_flight' returned '0': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/nidar_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nidar_flight build --build-base /home/subhalaxmi/nidar_ws/build/nidar_flight/build install --record /home/subhalaxmi/nidar_ws/build/nidar_flight/install.log --single-version-externally-managed install_data
+[9.267s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight' for CMake config files
+[9.268s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight/lib'
+[9.268s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight/bin'
+[9.268s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/pkgconfig/nidar_flight.pc'
+[9.268s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages'
+[9.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('nidar_flight', 'pythonpath')
+[9.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/hook/pythonpath.ps1'
+[9.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/hook/pythonpath.dsv'
+[9.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/hook/pythonpath.sh'
+[9.272s] Level 1:colcon.colcon_core.environment:checking '/home/subhalaxmi/nidar_ws/install/nidar_flight/bin'
+[9.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nidar_flight)
+[9.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/package.ps1'
+[9.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/package.dsv'
+[9.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/package.sh'
+[9.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/package.bash'
+[9.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/subhalaxmi/nidar_ws/install/nidar_flight/share/nidar_flight/package.zsh'
+[9.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/subhalaxmi/nidar_ws/install/nidar_flight/share/colcon-core/packages/nidar_flight)
+[9.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.278s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.303s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.338s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhalaxmi/nidar_ws/install/local_setup.ps1'
+[9.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/subhalaxmi/nidar_ws/install/_local_setup_util_ps1.py'
+[9.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhalaxmi/nidar_ws/install/setup.ps1'
+[9.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhalaxmi/nidar_ws/install/local_setup.sh'
+[9.363s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/subhalaxmi/nidar_ws/install/_local_setup_util_sh.py'
+[9.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhalaxmi/nidar_ws/install/setup.sh'
+[9.373s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhalaxmi/nidar_ws/install/local_setup.bash'
+[9.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhalaxmi/nidar_ws/install/setup.bash'
+[9.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/subhalaxmi/nidar_ws/install/local_setup.zsh'
+[9.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/subhalaxmi/nidar_ws/install/setup.zsh'

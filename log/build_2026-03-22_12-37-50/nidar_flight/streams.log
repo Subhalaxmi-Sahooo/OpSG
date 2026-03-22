@@ -1,0 +1,22 @@
+[1.740s] Invoking command in '/home/subhalaxmi/nidar_ws/src/nidar_flight': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/nidar_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nidar_flight build --build-base /home/subhalaxmi/nidar_ws/build/nidar_flight/build install --record /home/subhalaxmi/nidar_ws/build/nidar_flight/install.log --single-version-externally-managed install_data
+[2.367s] running egg_info
+[2.369s] writing ../../build/nidar_flight/nidar_flight.egg-info/PKG-INFO
+[2.369s] writing dependency_links to ../../build/nidar_flight/nidar_flight.egg-info/dependency_links.txt
+[2.370s] writing entry points to ../../build/nidar_flight/nidar_flight.egg-info/entry_points.txt
+[2.370s] writing requirements to ../../build/nidar_flight/nidar_flight.egg-info/requires.txt
+[2.370s] writing top-level names to ../../build/nidar_flight/nidar_flight.egg-info/top_level.txt
+[2.374s] reading manifest file '../../build/nidar_flight/nidar_flight.egg-info/SOURCES.txt'
+[2.375s] writing manifest file '../../build/nidar_flight/nidar_flight.egg-info/SOURCES.txt'
+[2.376s] running build
+[2.376s] running build_py
+[2.376s] running install
+[2.377s] running install_lib
+[2.380s] running install_data
+[2.381s] running install_egg_info
+[2.386s] removing '/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight-0.0.0-py3.10.egg-info' (and everything under it)
+[2.387s] Copying ../../build/nidar_flight/nidar_flight.egg-info to /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages/nidar_flight-0.0.0-py3.10.egg-info
+[2.389s] running install_scripts
+[2.435s] Installing square_path_node script to /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/nidar_flight
+[2.435s] Installing takeoff_node script to /home/subhalaxmi/nidar_ws/install/nidar_flight/lib/nidar_flight
+[2.436s] writing list of installed files to '/home/subhalaxmi/nidar_ws/build/nidar_flight/install.log'
+[2.493s] Invoked command in '/home/subhalaxmi/nidar_ws/src/nidar_flight' returned '0': PYTHONPATH=/home/subhalaxmi/nidar_ws/build/nidar_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/subhalaxmi/nidar_ws/install/nidar_flight/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nidar_flight build --build-base /home/subhalaxmi/nidar_ws/build/nidar_flight/build install --record /home/subhalaxmi/nidar_ws/build/nidar_flight/install.log --single-version-externally-managed install_data

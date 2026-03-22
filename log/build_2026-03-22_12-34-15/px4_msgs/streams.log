@@ -1,0 +1,37 @@
+[0.604s] Invoking command in '/home/subhalaxmi/nidar_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/px4_msgs -- -j4 -l4
+[2.894s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.308s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp'
+[5.309s] Traceback (most recent call last):
+[5.309s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[5.309s]     sys.exit(main())
+[5.309s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[5.309s]     generate_cpp(args.generator_arguments_file)
+[5.310s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+[5.310s]     return generate_files(
+[5.310s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[5.310s]     idl_file = parse_idl_file(locator)
+[5.310s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[5.310s]     content = parse_idl_string(string, png_file=png_file)
+[5.311s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[5.311s]     tree = get_ast_from_idl_string(idl_string)
+[5.311s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[5.311s]     return _parser.parse(idl_string)
+[5.311s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/lark.py", line 677, in parse
+[5.312s]     return self.parser.parse(text, start=start, on_error=on_error)
+[5.312s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/parser_frontends.py", line 131, in parse
+[5.312s]     return self.parser.parse(stream, chosen_start, **kw)
+[5.312s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/parsers/earley.py", line 280, in parse
+[5.312s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[5.312s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/parsers/xearley.py", line 151, in _parse
+[5.312s]     self.predict_and_complete(i, to_scan, columns, transitives, node_cache)
+[5.313s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/parsers/earley.py", line 138, in predict_and_complete
+[5.313s]     new_item.node = node_cache[label] if label in node_cache else node_cache.setdefault(label, self.SymbolNode(*label))
+[5.313s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/parsers/earley_forest.py", line 54, in __init__
+[5.313s]     self._children = self.Set()
+[5.313s]   File "/home/subhalaxmi/.local/lib/python3.10/site-packages/lark/utils.py", line 395, in __init__
+[5.313s]     self.d = dict.fromkeys(items)
+[5.313s] KeyboardInterrupt
+[5.347s] gmake[2]: *** [CMakeFiles/px4_msgs__cpp.dir/build.make:1559: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp] Interrupt
+[5.348s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/px4_msgs__cpp.dir/all] Interrupt
+[5.348s] gmake: *** [Makefile:146: all] Interrupt
+[5.352s] Invoked command in '/home/subhalaxmi/nidar_ws/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/subhalaxmi/nidar_ws/install/nidar_flight:/home/subhalaxmi/nidar_ws/install/drone_pkg:/home/subhalaxmi/my_robot_ws/install/line_follower:/home/subhalaxmi/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/subhalaxmi/nidar_ws/build/px4_msgs -- -j4 -l4
