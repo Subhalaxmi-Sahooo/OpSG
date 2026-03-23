@@ -48,4 +48,21 @@ d=h⋅tan(θ)
 
 By combining the drone’s current GPS heading with this calculated distance (d), the software automatically generates the precise coordinates of any detected object on the ground.
  
+5. Material Selection
+
+To achieve the "light-weightedness" mandate while maintaining the structural rigidity necessary for high-speed SAR operations, the drone relies on a specialized, hybrid material approach:
+
+-Primary Airframe (Carbon Fiber): The bottom plate, top plate, and Deadcat arms are machined from 3K twill carbon fiber. Carbon fiber offers an unmatched stiffness-to-weight ratio, ensuring the frame remains rigid and free of resonance even under high thrust loads.
+
+-Sensor Mounts (TPU): Rather than using heavy mechanical gimbals, the oblique camera housing, GPS seat, and antenna mounts are 3D printed using TPU (Thermoplastic Polyurethane). TPU is highly durable, lightweight, and natively absorbs high-frequency motor vibrations, acting as an integrated shock absorber for the camera feed.
+
+-Fasteners & Hardware: To eliminate parasitic weight, standard steel hardware is replaced with knurled aluminum standoffs and titanium alloy screws where structural integrity allows.
+
+Camera comparison table : https://docs.google.com/spreadsheets/d/157Fvjwuyvo4Nkn1HNT_8Oc1bsEw7guuEHJ5BnLttx_k/edit?usp=sharing
+
+<img width="1338" height="167" alt="image" src="https://github.com/user-attachments/assets/2739d2be-9f73-4fb7-8f8c-7bd06782547a" />
+
+While the Raspberry Pi Camera V3 is the safest fallback, the Arducam 16MP Autofocus remains the superior choice for this specific architecture. It provides the exact middle-ground needed: it utilizes the low-overhead MIPI CSI-2 interface to communicate with the onboard computer, weighs practically nothing (5g), and offers double the pixel density of the standard Pi V2 camera, ensuring the detection algorithms have enough high-contrast edge data to identify targets from a 30m-40m altitude over the 30-hectare search grid.
+
+Alternatively, if the onboard computer struggles with the OpenCV workload during initial bench testing, the Luxonis OAK-1-Lite should be documented as the immediate contingency plan, as it offloads all vision processing directly onto the camera hardware.
 
