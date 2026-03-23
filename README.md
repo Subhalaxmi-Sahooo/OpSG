@@ -2,66 +2,36 @@ Week 0 CAD tasks: https://cad.onshape.com/documents/0179b728dd6cf5fdf34f7db9/w/5
 
 Week 1 CAD tasks: https://cad.onshape.com/documents/5965ec15bfa2bc3e1a299ad8/w/73ec7f2d4e9b4e7990dcfa00/e/2f9693361ea22826409942b2?renderMode=0&uiState=69c1876cfed5b8f664958f64
 
-1. Multirotor Configurations: Quad vs. Hex vs. Octo 
+Drone Architecture & Frame Selection
 
-    Hexacopters & Octocopters (6 or 8 motors): These are built for heavy lifting and redundancy. If a motor fails, the drone can still land safely. However, they require massive batteries, more electronic components, and are inherently heavy. 
+To meet the requirements of a high-agility scout drone, the following hardware configuration has been selected. This setup prioritizes a lightweight profile, structural rigidity, and an unobstructed field of view (FOV) for Search and Rescue (SAR) operations.
 
-    Quadcopters (4 motors): The standard for lightweight, agile platforms. They are mathematically simple, require fewer parts, and maximize flight time by minimizing the raw weight of the motors and frame. 
+1. Multirotor Configuration: Quadcopter
 
-For a scout drone where "light-weightedness" is a primary requirement, a Quadcopter is the only logical choice. 
+While Hexacopters and Octocopters offer motor redundancy and higher lift capacity, they require significantly larger batteries and heavier frames. For a scout drone where light-weightedness and flight endurance are the primary constraints, a Quadcopter is the most efficient choice. It offers the best thrust-to-weight ratio and simplifies the mechanical build.
 
-2. Quadcopter Frame Geometries 
+2. Frame Geometry: The Deadcat
 
-Within the quadcopter category, the shape of the frame dictates its utility. 
+Standard "True-X" frames are excellent for racing but suffer from "prop-in-view," where the propellers obstruct the camera feed. To solve this without adding the weight of a complex gimbal or a massive H-frame, we are utilizing a Deadcat Frame.
 
-    The True-X Frame: The motors form a perfect square, with the arms crossing at exactly 90 degrees in the center. 
+- Geometry: The front arms are swept wider apart (approx. 140°) and pushed back, while the rear arms remain closer together.
 
-    Pros: Perfectly balanced. The Center of Gravity (CG) and Center of Thrust (CT) are identical. Incredibly agile. 
+- Visibility: This wide-angle stance ensures that even during aggressive forward pitch, the propellers stay completely out of the camera's FOV.
 
-    Cons: The front two propellers will constantly be in the video feed of a forward-facing camera. 
+- Weight Efficiency: It maintains the structural rigidity of an X-frame while providing the elongated body of an H-frame for battery and electronics mounting.
 
-    The H-Frame: The central body is a long rectangle, with arms protruding straight out from the sides. 
+- Balance Note: Because the Center of Thrust is shifted rearward, the battery is positioned toward the back of the frame to keep the Center of Gravity (CG) perfectly centered.
 
-    Pros: Massive amounts of room for electronics, batteries, and large camera payloads along the central bus. 
+3. Sensor Integration: Oblique vs. Nadir
 
-    Cons: Heavier than an X-frame and slightly less structurally rigid at the arm joints during a crash. 
+The Choice: Oblique (45°–60°) on a Deadcat Frame
+An oblique angle is the requirement for SAR. It allows the operator to identify human profiles rather than just "top-of-head" blobs and provides much better depth perception when navigating 30-hectare search zones at high speeds while also being able to see the path ahead and not just scan the area which helps in obstacle avoidance.
 
-    The Deadcat Frame: An asymmetrical X-frame. The front arms are swept wider apart and pushed slightly backward, resembling a splayed cat. 
+4. Target Geolocation & Mathematical Offset
 
-    Pros: Completely removes the front propellers from the camera's field of view. Maintains excellent structural rigidity. 
+Since the camera is tilted at an angle (θ), the drone's GPS coordinate will not be directly over the target. To ensure accurate mapping, the system calculates the horizontal offset (d) in real-time using the drone's altitude (h) and the camera's pitch angle (θ) via the tangent projection formula:
+d=h⋅tan(θ)
 
-    Cons: The Center of Thrust is shifted backward, meaning the Center of Gravity must also be actively shifted backward to match it, otherwise the rear motors overwork. 
-
-The Deadcat Quadcopter is definitively the best choice for this specific surveillance architecture. It perfectly threads the needle between the three main constraints: 
-
-    Camera Visibility: The wide front stance guarantees an unobstructed view. 
-
-    Light-weightedness: It uses minimal material compared to an H-frame or Hexacopter. 
-
-    Structural Stability: The central body can be made highly rigid. 
-
-Option A: True-X Frame with Nadir (90°) Camera 
-
-The True-X architecture positions motors in a symmetrical square, offering the highest baseline agility and straightforward Center of Gravity (CG) balancing. 
-
-    Payload Integration: A Nadir (straight-down) camera avoids propeller obstruction natively. 
-
-    Mission Constraints: A 90° downward angle introduces severe operational blindspots for Search and Rescue (SAR). It only captures the tops of targets, making profiles difficult to identify, especially under foliage. Furthermore, it eliminates the operator's forward visibility, significantly reducing the safe scanning speed across the 30-hectare area. 
-
-Option B: Dead Cat Frame with Oblique (45°-60°) Camera 
-
-The Dead Cat architecture modifies the True-X by sweeping the front arms outward (e.g., 140° apart) and pushing the Center of Thrust rearward. 
-
-    Payload Integration: Accommodates an underslung Oblique camera. The wide front stance guarantees the spinning propellers remain completely out of the camera's field of view during forward pitch. 
-
-    Mission Advantages: The 45° angle is the Search and Rescue standard. It captures target profiles, highlights shadows, provides visibility under tree canopies, and allows the operator to safely navigate obstacles at high speeds. 
-
-    Design Requirements: Requires an elongated center plate to shift the battery rearward (balancing the shifted Center of Thrust) and extended landing gear to protect the underslung camera module. 
-
-    Target Geolocation (The Offset Solution) 
-
-    While an Oblique camera introduces a horizontal offset between the drone's GPS coordinate and the target's physical location, this is resolved programmatically. The target's exact coordinates will be calculated in real-time using the drone's altitude (h) and the camera's pitch angle (θ) via the tangent projection formula: d=h⋅tan(θ). 
-Hence, the best choice would be a deadcat frame with an oblique camera.
-
+By combining the drone’s current GPS heading with this calculated distance (d), the software automatically generates the precise coordinates of any detected object on the ground.
  
 
