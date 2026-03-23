@@ -12,6 +12,20 @@ While Hexacopters and Octocopters offer motor redundancy and higher lift capacit
 
 2. Frame Geometry: The Deadcat
 
+Within the quadcopter category, the shape of the frame dictates its utility. 
+
+-The H-Frame: The central body is a long rectangle, with arms protruding straight out from the sides. 
+
+Pros: Massive amounts of room for electronics, batteries, and large camera payloads along the central bus. 
+
+Cons: Heavier than an X-frame and slightly less structurally rigid at the arm joints during a crash. 
+
+-The True-X Frame: The motors form a perfect square, with the arms crossing at exactly 90 degrees in the center. 
+
+Pros: Perfectly balanced. The Center of Gravity (CG) and Center of Thrust (CT) are identical. Incredibly agile. 
+
+Cons: The front two propellers will constantly be in the video feed of a forward-facing camera. 
+
 Standard "True-X" frames are excellent for racing but suffer from "prop-in-view," where the propellers obstruct the camera feed. To solve this without adding the weight of a complex gimbal or a massive H-frame, we are utilizing a Deadcat Frame.
 
 - Geometry: The front arms are swept wider apart (approx. 140°) and pushed back, while the rear arms remain closer together.
