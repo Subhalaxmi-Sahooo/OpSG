@@ -58,6 +58,8 @@ To achieve the "light-weightedness" mandate while maintaining the structural rig
 
 -Fasteners & Hardware: To eliminate parasitic weight, standard steel hardware is replaced with knurled aluminum standoffs and titanium alloy screws where structural integrity allows.
 
+Camera Selection for Area Scanning
+
 Camera comparison table : https://docs.google.com/spreadsheets/d/157Fvjwuyvo4Nkn1HNT_8Oc1bsEw7guuEHJ5BnLttx_k/edit?usp=sharing
 
 <img width="1338" height="167" alt="image" src="https://github.com/user-attachments/assets/2739d2be-9f73-4fb7-8f8c-7bd06782547a" />
@@ -65,4 +67,16 @@ Camera comparison table : https://docs.google.com/spreadsheets/d/157Fvjwuyvo4Nkn
 While the Raspberry Pi Camera V3 is the safest fallback, the Arducam 16MP Autofocus remains the superior choice for this specific architecture. It provides the exact middle-ground needed: it utilizes the low-overhead MIPI CSI-2 interface to communicate with the onboard computer, weighs practically nothing (5g), and offers double the pixel density of the standard Pi V2 camera, ensuring the detection algorithms have enough high-contrast edge data to identify targets from a 30m-40m altitude over the 30-hectare search grid.
 
 Alternatively, if the onboard computer struggles with the OpenCV workload during initial bench testing, the Luxonis OAK-1-Lite should be documented as the immediate contingency plan, as it offloads all vision processing directly onto the camera hardware.
+
+Motor and ESC 
+
+To maintain high agility and handle wind resistance during the scanning mission, the propulsion system needs to comfortably lift the 600g–800g target All-Up Weight (AUW) with a minimum 3:1 thrust-to-weight ratio, all while drawing minimal current.
+
+Three different motor options were analyzed based on stator size and KV rating for a 4S battery setup. The iFlight XING2 1404 (4600KV) is incredibly light at 9g, but only produces around 450g of thrust per motor. Four of these would provide roughly 1800g of total thrust, yielding just over a 2:1 ratio. The drone would struggle to recover from descents, and the motors would need to run at 70% throttle just to maintain a hover, drastically reducing efficiency. On the heavier end, the BrotherHobby VY 2004 (3150KV) produces a massive 720g of thrust but draws up to 16.5A, pulling too much current for sustained endurance flights.
+
+For the Electronic Speed Controllers (ESCs), the Diatone Mamba 25A, SpeedyBee 30A Mini, and Hobbywing XRotor 40A were compared. The 25A rating on the Mamba offers a slightly smaller thermal safety margin for continuous 15-20 minute flights. Conversely, the 40A Hobbywing board is massive overkill for the low-amp motors required and adds unnecessary parasitic weight to the frame.
+
+Conclusion: The EMAX Eco II 2004 (2400KV) motors paired with the SpeedyBee 30A Mini 4-in-1 ESC should be utilized. The 2004 stator size provides the ideal balance of torque and weight for a 5-inch endurance build. The 2400KV variant maximizes cruising efficiency (yielding about 6.2 g/W) while still generating a total of ~2400g of thrust, perfectly hitting the 3:1 ratio requirement. These motors pull a maximum of 12.8A at 100% throttle. The SpeedyBee 30A ESC provides more than double that required capacity, ensuring the components will remain cool even under heavy wind loads. Using a 4-in-1 layout centralizes the weight at just 5.5g and keeps the carbon fiber arms clean to reduce aerodynamic drag.
+
+
 
