@@ -84,3 +84,31 @@ Maximum Safe Discharge (I_max): 130 Amps
 Estimated Peak Power Output: 2,664 Watts 
 
 Connector Type: XT60 or XT90 (depending on ESC current rating) 
+
+Propeller and Core Electronics Selection
+
+1. Propeller SelectionChoice: HQProp 5.1x3x3 (Diameter: 5.1", Pitch: 3.0", Material: Polycarbonate).
+
+Reasoning: A shallow 3.0-inch pitch is chosen over an aggressive racing pitch to maximize cruising efficiency and reduce current spikes. The tri-blade configuration provides the necessary aerodynamic grip and thrust generation to maintain a perfectly stable horizon for the camera feed, while polycarbonate ensures durability during field operations.
+
+2. Support Electronics
+
+a) Flight controller: SpeedyBee F405 V4
+
+-Stabilization and flight control: Features an STM32F405 processor and integrated barometer. Processes gyro data and runs firmware (ArduPilot/iNav) to execute autonomous grid paths.
+
+b) GPS moduleMatek: M10Q-5883
+
+-Location and geotagging: Utilizes Ublox 10th Gen chip for rapid satellite locks. Includes a built-in magnetometer (compass), strictly necessary for waypoint navigation and coordinate logging of targets.
+
+c) Telemetry module: Holybro SiK Radio (915MHz)
+
+-Communication with ground station: 915MHz frequency provides long-range penetration superior to 2.4GHz Wi-Fi, allowing transmission of MavLink data and target coordinates back to base.
+
+d) Onboard computer: Raspberry Pi Zero 2 W
+
+-Human detection processing: Ultra-lightweight (15g) single-board computer with a quad-core processor. Connects directly to the MIPI CSI camera to run optimized TensorFlow/OpenCV detection algorithms onboard.
+
+e) Power distribution: Integrated into ESC
+
+-Power routing: The 4-in-1 ESC acts as the PDB, routing high-current 22.2V power to the motors and filtered, stepped-down 5V power to the Flight Controller and Raspberry Pi.
