@@ -112,3 +112,13 @@ d) Onboard computer: Raspberry Pi Zero 2 W
 e) Power distribution: Integrated into ESC
 
 -Power routing: The 4-in-1 ESC acts as the PDB, routing high-current 22.2V power to the motors and filtered, stepped-down 5V power to the Flight Controller and Raspberry Pi.
+
+Camera viewer: 
+
+<img width="1366" height="768" alt="Screenshot from 2026-03-29 12-07-40" src="https://github.com/user-attachments/assets/7fc341f5-fe73-47ab-8af1-f16262e8a0b3" />
+
+Human detector:
+
+<img width="1366" height="768" alt="Screenshot from 2026-03-29 19-12-12" src="https://github.com/user-attachments/assets/8b097d3d-0bd7-48fd-918f-e878dfc2d3aa" />
+
+
