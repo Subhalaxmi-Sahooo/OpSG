@@ -121,4 +121,11 @@ Human detector:
 
 <img width="1366" height="768" alt="Screenshot from 2026-03-29 19-12-12" src="https://github.com/user-attachments/assets/8b097d3d-0bd7-48fd-918f-e878dfc2d3aa" />
 
+Human spawned in gazebo: 
+
+<img width="1366" height="768" alt="Screenshot from 2026-03-29 12-09-44" src="https://github.com/user-attachments/assets/965551b0-8f64-434c-b96a-bac888a5e0f6" />
+
+
+
+
 
