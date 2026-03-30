@@ -5,7 +5,7 @@ from px4_msgs.msg import OffboardControlMode, TrajectorySetpoint, VehicleCommand
 class TakeoffNode(Node):
     def __init__(self):
         super().__init__('takeoff_node')
-        self.target_height = -10.0
+        self.target_height = 10.0
         
         #PX4 compatible QoS profile for offboard control 
         qos_profile = QoSProfile(

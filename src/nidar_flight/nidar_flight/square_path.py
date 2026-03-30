@@ -78,14 +78,14 @@ class SquarePathNode(TakeoffNode):
             distance = math.sqrt((target[0] - self.current_x) ** 2 +
                                 (target[1] - self.current_y) ** 2 +
                                 (target[2] - self.current_z) ** 2)
-            #if within 2.5 meters of the target waypoint, move to the next waypoint
-            if distance <2.5:
+            #if within 1.0 meters of the target waypoint, move to the next waypoint
+            if distance <1.0:
                 if self.current_waypoint_index < len(self.square_waypoints) - 1:
                     self.current_waypoint_index += 1
                     self.get_logger().info(f"Moving to waypoint {self.current_waypoint_index}: {self.square_waypoints[self.current_waypoint_index]}")
                 else:
                     self.get_logger().info("Completed square path. Returning to takeoff point.")
-                    self.current_waypoint_index = 0 #starting point of square is index 1, index 0 is takeoff point, this statement lands the drone after completing the path
+                    
         self.timer_count +=1
 
 def main(args=None):
