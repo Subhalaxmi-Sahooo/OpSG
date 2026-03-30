@@ -68,11 +68,19 @@ To maintain high agility and handle wind resistance during the scanning mission,
 The T-Motor Velox V2 2306 (1750KV) motors paired with the SpeedyBee 50A BLHeli_S 4-in-1 ESC should be utilized. The larger 2306 stator size provides the necessary low-end torque to swing 5-inch tri-blade propellers and recover from descents during grid scanning. The 1750KV variant maximizes 6S cruising efficiency (operating at roughly 2.05 g/W) while generating more than enough thrust to exceed the 3:1 ratio requirement. At 100% throttle, these motors pull a peak of 31A. The SpeedyBee 50A ESC provides a massive safety margin, easily absorbing peak current spikes without thermal throttling, ensuring absolute reliability during autonomous, continuous flights. Using a 4-in-1 layout centralizes the mass and keeps the carbon fiber arms clean to reduce aerodynamic drag.
 
 Final Selected Battery Specifications 
+
 Chemistry: Lithium Polymer (LiPo) 
+
 Cell Configuration: 6S (6 Cells in Series) 
+
 Nominal Voltage: 22.2V 
+
 Capacity: 1300 mAh 
+
 Discharge Rating (C-Rating): 100C Continuous 
+
 Maximum Safe Discharge (I_max): 130 Amps 
+
 Estimated Peak Power Output: 2,664 Watts 
+
 Connector Type: XT60 or XT90 (depending on ESC current rating) 
